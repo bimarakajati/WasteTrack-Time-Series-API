@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # load csv data
-    df = pd.read_csv('tpa.csv')
+    df = pd.read_csv('datasets/tpa.csv')
     # change column to datetime
     df['Tanggal'] = pd.to_datetime(df['Tanggal'])
     # create a line chart
@@ -20,7 +20,7 @@ def index():
 @app.route('/prediksi')
 def prediksi():
     # load csv data
-    df = pd.read_csv('prediksi_arima.csv')
+    df = pd.read_csv('datasets/prediksi_arima.csv')
     # change column to datetime
     df['Tanggal'] = pd.to_datetime(df['Tanggal'])
     # create a line chart
@@ -38,7 +38,7 @@ def prediksi():
 @app.route('/suhu')
 def suhu():
     # load csv data
-    df = pd.read_csv('prediksi_var.csv')
+    df = pd.read_csv('datasets/prediksi_var.csv')
     # change column to datetime
     df['Tanggal'] = pd.to_datetime(df['Tanggal'])
     # create a line chart
