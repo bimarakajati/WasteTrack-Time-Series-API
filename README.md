@@ -1,1 +1,1 @@
-# WasteTrack-Time-Series-API-
+# WasteTrack-Time-Series-API
