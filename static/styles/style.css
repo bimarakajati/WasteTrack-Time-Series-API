@@ -1,20 +1,22 @@
 body {
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #ecf0f1;
+  text-align: justify;
+  line-height: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* background-color: #ecf0f1; */
   font-family: arial, sans-serif;
-}
-.main-svg {
-  border-radius: 10px;
 }
 h1 {
   text-align: center;
   padding: 10px;
 }
-.chart {
-  width: 100%;
-  height: auto;
+
+/* Chart */
+.main-svg {
+  border-radius: 10px;
 }
+
+/* Link */
 a {
   color: black;
   text-decoration: none;
@@ -24,4 +26,37 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
+
+/* Table */
+.dataframe {
+  border-radius: 10px;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+.dataframe thead tr {
+  background-color: #dddddd;
+  color: #000;
+  text-align: left;
+}
+.dataframe th,
+.dataframe td {
+    padding: 12px 15px;
+}
+.dataframe tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.dataframe tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.dataframe tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.dataframe tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
 }

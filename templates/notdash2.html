@@ -13,6 +13,10 @@
         <p><a href="/">● Return to index page</a></p>
         <div id="chart" class="chart"></div>
         <div><p>{{description}}</p></div>
+        <div class="table-container">
+            <h2>Data Table</h2>
+            {{ table|safe }}
+        </div>
     </body>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script type="text/javascript">
