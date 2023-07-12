@@ -3,8 +3,7 @@
 The WasteTrack Time-Series API project is a web application developed to track and visualize waste production over time. It uses Flask, a Python web framework, to build the backend server and provides a user-friendly interface to interact with the waste data.
 
 ## 📷 Screenshot
-![Web Interface](static/ss/1.png)
-![Web Interface](static/ss/2.png)
+![Web Interface](static/ss/ss.png)
 
 ## ✨ Prerequisites
 
